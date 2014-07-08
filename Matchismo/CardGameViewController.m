@@ -15,7 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
-@property (nonatomic) Deck *deck;
+@property (nonatomic, strong) Deck *deck;
 @end
 
 @implementation CardGameViewController
