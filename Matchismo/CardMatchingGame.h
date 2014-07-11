@@ -13,11 +13,13 @@
 
 // designated initializer
 - (instancetype) initWithCardCount:(NSUInteger)count
-						 usingDeck:(Deck *) deck;
+						 usingDeck:(Deck *) deck
+						  withMode:(NSUInteger)mode;
 
 - (void) chooseCardAtIndex:(NSUInteger) index;
 - (Card *) cardAtIndex:(NSUInteger) index;
 
 @property (nonatomic, readonly) NSInteger score;
-
+@property (nonatomic) NSUInteger mode;// TASK #3 how many cards can we match?
+@property (nonatomic, strong) NSMutableArray *resultsHistory;
 @end

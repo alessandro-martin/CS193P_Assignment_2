@@ -174,13 +174,13 @@
 				A72837C9196BA98E000F93ED /* CardMatchingGame.h */,
 				A72837CA196BA98E000F93ED /* CardMatchingGame.m */,
 				A72837BC196A51F9000F93ED /* Card.h */,
+				A72837BD196A51F9000F93ED /* Card.m */,
 				A72837C0196A5303000F93ED /* Deck.h */,
 				A72837C1196A5303000F93ED /* Deck.m */,
 				A72837C3196A5489000F93ED /* PlayingCard.h */,
 				A72837C4196A5489000F93ED /* PlayingCard.m */,
 				A72837C6196A55E0000F93ED /* PlayingCardDeck.h */,
 				A72837C7196A55E0000F93ED /* PlayingCardDeck.m */,
-				A72837BD196A51F9000F93ED /* Card.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
